@@ -2,7 +2,7 @@
 FROM jboss/base-jdk:8
 
 # Set the WILDFLY_VERSION env variable
-ENV WILDFLY_VERSION 10.0.1.Final
+ENV WILDFLY_VERSION 10.1.0.Final
 ENV WILDFLY_SHA1 0e89fe0860a87bfd6b09379ee38d743642edfcfb
 ENV JBOSS_HOME /opt/jboss/wildfly
 
