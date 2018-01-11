@@ -2,7 +2,7 @@
 FROM jboss/base-jdk:8
 
 # Set the WILDFLY_VERSION env variable
-ENV WILDFLY_VERSION 11.0.0.Final
+ENV WILDFLY_VERSION 10.0.1.Final
 ENV WILDFLY_SHA1 0e89fe0860a87bfd6b09379ee38d743642edfcfb
 ENV JBOSS_HOME /opt/jboss/wildfly
 
@@ -25,7 +25,7 @@ ENV LAUNCH_JBOSS_IN_BACKGROUND true
 USER jboss
 
 # Expose the ports we're interested in
-EXPOSE 8080
+EXPOSE 80
 
 # Set the default command to run on boot
 # This will boot WildFly in the standalone mode and bind to all interface
